@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#82B1FF"
+        android:text="白板按钮一"
+        android:textColor="#C6FF00"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_2"
+        android:text="圆角实心按钮二"
+        android:textColor="#F8F8D3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_3"
+        android:text="空心按钮三"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_4"
+        android:text="按压效果按钮四"
+        android:textColor="#3C3F41"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="10dp"
+        android:background="#A2A2FF"
+        android:text="不常用点击效果按钮五"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_5"
+        android:layout_marginTop="10dp"
+        android:background="#FF629A"
+        android:text="常用点击效果按钮六"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/btn_6"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:text="可点击文本"
+        android:background="#FFA01A"
+        android:gravity="center"
+        />
+</RelativeLayout>
